@@ -1,0 +1,21 @@
+youtube link :  https://www.youtube.com/watch?v=G14WMD8Kg3U
+
+touch .gitigmore
+git config --global user.name shreedhar
+git config --global email.name "shreedhar.pandey11@gmail.com"
+git init
+git add .
+git commit -m "Initial Commit"
+git status    #to see detail status
+ssh-keygen -t rsa -b 4096 -C "shreedhar.pandey11@gmail.com"
+tail <path to id_rsa.pub>   #add this key to your github account
+git remote add origin <ssh url.git>
+git push origin master
+
+
+update to your github account
+git status
+
+git add .
+git git commit -m "message any..."
+git push origin master
